@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.logo{
+  width: 2.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.right-Nav i {
+  font-size: 1.5rem;
+  color: rgb(131, 131, 131);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Search{
+  width: 45rem;
+  border-radius: 5px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  background-color: rgb(239, 239, 239);
+  border: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.right-Nav i{
+  padding: 10px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.right-Nav i:hover{
+  border-radius: 50px;
+  background-color: rgb(225, 224, 224);
 }
+.name{
+  color: rgb(131, 131, 131);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.addNote{
+  box-shadow: 5px 10px 18px #888888;
+  padding: 0.5rem;
+  width: 40rem;
+}
+.navbar{
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.notes{
+  margin: 2.5rem 0;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.icons{
+  color:#888888;
+  
+}
+Link{
+  color: black;
+  text-decoration: none;
 }

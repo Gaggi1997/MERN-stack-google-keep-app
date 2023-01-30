@@ -1,0 +1,37 @@
+import React from 'react'
+
+const Nav = () => {
+    return (
+        <div>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid d-flex align-item-center justify-content-between">
+                    <div className="left-Nav">
+                        <a className="navbar-brand" href="/"><img className='logo' src='images/logo.png' alt='logo' /> <span className='name'>Keep</span> </a>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    {/* <div className="collapse navbar-collapse" id="navbarSupportedContent"> */}
+                        <div className="center-Nav">
+                                <form className="d-flex">
+                                <input className="form-control Search me-2" type="search" placeholder="Search" aria-label="Search"  />
+                                {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
+                            </form>
+                        </div>
+                        <div className="right-Nav">
+                        <i className="fa-solid fa-rotate-right"></i>
+                        <i className="fa-solid fa-equals"></i>
+                        <i className="fa-solid fa-gear"></i>
+                        </div>
+
+                    {/* </div> */}
+                </div>
+            </nav>
+        </div>
+    )
+}
+
+export default Nav
+
+
+
